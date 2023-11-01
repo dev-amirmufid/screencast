@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./styles/bootstrap.min.css" rel="stylesheet" />
+    <link href="./styles/custom.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="popup container py-5 px-4 position-relative">
+      <div class="d-flex justify-content-center flex-column align-items-center">
+        <img width="70px" src="./icons/logo-128x128.png" />
+
+        <img class="preloader" width="100px" src="./icons/preloader.gif" />
+      </div>
+      <div class="courses w-100">
+        <p class="text-muted w-100 text-center">教室のデータを取得します。<br>しばらくお待ちください。</p>
+      </div>
+
+      <div class="overlay position-absolute w-100 h-100">
+        <div
+          class="
+            d-flex
+            justify-content-center
+            flex-column
+            align-items-center align-content-center
+            w-100
+            h-100
+          "
+        >
+          <img class="loading" width="70px" src="./icons/preloader.gif" />
+          <p style="color: white">しばらくお待ちください。</p>
+        </div>
+      </div>
+    </div>
+    <script src="./js/jquery.min.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

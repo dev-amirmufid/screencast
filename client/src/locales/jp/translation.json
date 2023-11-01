@@ -1,0 +1,633 @@
+{
+  "navigation": {
+    "room_management": "教室管理",
+    "logout": "ログアウト",
+    "assistant_monitoring": "アシスタント モニタリング",
+    "syncronize": "同期する",
+    "tenants": "テナント管理",
+    "admin": "管理者管理",
+    "schools": "学校管理",
+    "teachers": "教師管理",
+    "rooms": "教室管理",
+    "logs": "ログ表示",
+    "sync_logs": "ログを同期する"
+  },
+  "table": {
+    "no_data": "該当するデータが見つかりませんでした。",
+    "paging": "表示数",
+    "paging_sparator": "の",
+    "action_label": "操作"
+  },
+  "teacher": {
+    "login": {
+      "title": "教師ログイン",
+      "username": "ユーザー名",
+      "userid": "ユーザーID / Eメール",
+      "password": "パスワード",
+      "btn_sign_in": "ログイン",
+      "label_login_with": "でサインインすることもできます"
+    },
+    "room": {
+      "room_name": "教室名",
+      "room_name_placeholder": "教室名を入力してください",
+      "expired_at": "有効期限",
+      "room_management": "教室管理",
+      "room_list": "部屋一覧",
+      "delete": "消去",
+      "edit": "編集",
+      "share_link": "共有リンク",
+      "join_room": "ルームに参加",
+      "add_new": "追加",
+      "add_new_room": "教室作成",
+      "edit_room": "部屋を編集",
+      "success_update_room": "サクセスアップデートルーム",
+      "success_delete_room": "ルームの削除成功",
+      "success_add_room": "成功 部屋を追加",
+      "force_kick": "フォースキック",
+      "create_temp_room": "一時的な部屋"
+    },
+    "monitoring": {
+      "title": "モニタリング",
+      "room_unavailable": "システム障害により教室が削除されました。講義再開をするためには再度教室を作成してください。",
+      "number_of_participant": "参加者数",
+      "student_disconnect": "あなたの画面は先生が見ています",
+      "wait_text": "しばらくお待ちください",
+      "ss_stopped": " 画面共有が停止しました",
+      "user_disconnected": " ユーザーが退室しました。"
+    },
+    "student_url": {
+      "title": "参加者向けURL",
+      "close": "閉じる",
+      "notice": "上記URLをコピーするか、QRコードをダウンロードして参加者に共有してください。",
+      "qr_download": "QRコードをダウンロード",
+      "qr_refresh": "QRコードを再生成する"
+    },
+    "assistant_url": {
+      "title": "教師向けURL",
+      "close": "閉じる",
+      "notice": "上記URLをコピーするか、QRコードをダウンロードして他の教師に共有してください。",
+      "qr_download": "QRコードをダウンロード"
+    },
+    "modal": {
+      "share_title": "URLを共有",
+      "button_save": "保存",
+      "button_close": "キャンセル",
+      "csv": "参加者リスト",
+      "select_last_connection_date": "最終接続日を選択",
+      "download_csv": "CSV をダウンロード"
+    },
+    "validation": {
+      "room_name_required": "この項目は必須項目です",
+      "expiredAt_required": "有効期限が必要です"
+    }
+  },
+  "form": {
+    "field": {
+      "room_name": "教室名",
+      "student_name": "あなたの名前"
+    },
+    "btn": {
+      "btn_create": "教室作成",
+      "btn_join": "参加する",
+      "btn_back": "ホームに戻る"
+    },
+    "label": {
+      "mandatory": "※"
+    },
+    "placeholder": {
+      "search": "フリーワード検索"
+    }
+  },
+  "btn": {
+    "btn_yes": "はい",
+    "btn_no": "いいえ",
+    "btn_cancel": "キャンセル",
+    "btn_teacher": "教室を作成する",
+    "btn_student": "私は学生です。",
+    "btn_create": "教室作成",
+    "btn_join": "教室に入る",
+    "btn_back": "ホームに戻る",
+    "btn_leave": "教室を出る",
+    "btn_stop_watching": "画面共有停止",
+    "btn_stop_compare": "画面比較完了",
+    "btn_url_student": "参加URL",
+    "btn_url_assistant": "教師追加",
+    "btn_compare": "比較・分割",
+    "btn_compare_start": "決定",
+    "btn_share_screen": "画面共有を開始します",
+    "btn_google": "Google<br />アカウントで参加",
+    "btn_microsoft": "Microsoft<br />アカウントで参加",
+    "btn_alert_leave_room": "いいえ、教室を出る",
+    "btn_download_csv": "参加者リスト",
+    "btn_delete": "消去",
+    "btn_logout": "ログアウト",
+    "btn_search": "検索",
+    "btn_reset": "検索リセット",
+    "btn_export_csv": "CSV",
+    "btn_import_csv": "CSV"
+  },
+  "placeholder": {
+    "select_tenant": "テナントを選択してください",
+    "select_school": "学校を選択してください",
+    "select_teacher": "教師を選択してください",
+    "select_role": "管理者タイプの選択",
+    "select_start_date": "開始日",
+    "select_end_date": "日付終了",
+    "admin_name": "管理者名を入力してください",
+    "tenant_name": "テナント名を入力してください",
+    "teacher_name": "教師名を入力してください",
+    "room_name": "教室名を入力してください",
+    "expired_room": "期限切れの部屋を入力してください",
+    "email": "Eメールアドレスを入力してください",
+    "username": "ログインIDを入力してください",
+    "password": "パスワードを入力してください",
+    "password_confirm": "パスワードの確認を入力してください",
+    "user_limit": "ユーザー制限を入力してください",
+    "google_client": "Google クライアント ID を入力してください",
+    "microsoft_client": "Microsoft クライアント ID を入力してください",
+    "code": "学校コードを入力してください",
+    "school_name": "学校名を入力してください",
+    "search": "",
+    "tenant_subdomain": "サブドメインを入力してください",
+    "data_not_found": "データが見つかりません",
+    "no_matching": "一致するデータが見つかりません",
+    "exipred_room": "クリックでカレンダーを表示。",
+    "click_to_show_calendar": "クリックでカレンダーを表示"
+  },
+  "validation": {
+    "username_required": "ユーザー名は必須フィールドです",
+    "userid_required": "ユーザーID / Eメール は必須フィールドです",
+    "password_required": "パスワードは必須フィールドです",
+    "minlength": "上記の{value}文字を入力してください",
+    "maxlength": "{value}文字以内で入力してください",
+    "max": "このフィールドは {value} 以下である必要があります",
+    "alphabet": "このフィールドにはアルファベットのみ入力できます",
+    "alphanumeric": "このフィールドには英数字のみを入力できます",
+    "email_japan": "電子メールに日本語の文字を含めることはできません",
+    "alphanumeric_without_space": "このフィールドには、スペースを含まない英数字のみを入力できます",
+    "filled": "fが空白です。値を入力してください",
+    "alphanumeric_char": "fは英数字のみご使用になれます",
+    "emoji_disallowed": "絵文字は利用できません。"
+  },
+  "alert": {
+    "name": "アラート",
+    "ok": "OK",
+    "text": {
+      "date_required": "日付を空にすることはできません",
+      "alert_limit_user": "ログインしているユーザーが制限を超えています",
+      "on_deleted_admin_user": "管理者は既に削除されています。",
+      "on_deleted_teacher_user": "先生はすでに削除されています。",
+      "on_kick_teacher_user": "先生はもう追い出されました。",
+      "username_already_use": "ユーザー名はすでに使用されています",
+      "email_already_use": "メールは既に取得済みです",
+      "expired_token_title": "セッション終了",
+      "expired_token_text": "セッションの有効期限が切れています。再ログインしてください。",
+      "page_not_found": "このページが見つかりませんでした。",
+      "subdomain_already_use": "サブドメインは既に使用されています",
+      "room_exist": "この部屋はすでに存在しています。 別の部屋名を使用してください。",
+      "room_notuse": "部屋はすでに存在しますが、使用されていません。この部屋を使いたいですか？",
+      "room_must_filled": "教室名 が空白です。値を入力してください。",
+
+      "student_must_filled": "学生名が空白です。値を入力してください。",
+      "filed_must_alfanum": "作成する教室名を入力してください。教室名は英数字のみ利用できます",
+
+      "session_expiry": "セッションはすでに期限切れになっています。 この部屋は別の先生が使っていました。 別の部屋を作成してください。",
+      "user_disconnect": "選択した生徒が退室したか、共有を停止したため、画面を拡大できません。",
+      "user_notready": "選択した受講者の画面共有の設定が完了できないため画面の拡大表示ができません。",
+      "diconnect": "サーバーから切断されています。 サーバーに再接続するには、OKボタンをクリックしてください。",
+
+      "room_not_exist": "この部屋は存在しません。正しい部屋名を入力してください。",
+      "room_not_available": "教室が存在していません。 先生に新しいURLまたはQRCODEを貰ってください。",
+      "room_is_full": "この部屋はもういっぱいです、先生に聞いてください。",
+      "room_expiry": "この部屋は削除されたか、別の教師によって使用されています。 別の部屋を作成してください。",
+      "share_sreen_text": "画面共有を開始するには、上のボタンをクリックしてください。",
+      "comparation": "生徒画面比較を開始するに2生徒の画面を選択してください。",
+      "comparation_limit": "指定分割表示の対象生徒は最大9人名です。",
+      "url_invalid": "このURLは無効です。 先生にもう一度URLを確認してください。",
+      "leave_room_confirm": "教室から退出し、画面共有を終了しました。",
+      "leave_room_student": "教室から退室し、画面共有を終了しました。退室した教室に再度参加する場合は、参加時に利用したURL、QRコードを利用して参加してください。",
+      "leave_room_student_force": "すでに部屋を強制退出するか、部屋がもう存在しません",
+      "join_room_confirm": "上記の名前を使用してもよろしいですか？",
+      "join_room_confirm_2": "※名前を修正することもできます。",
+      "join_with_other_account": "「あなたの名前」ではなく、以下のアカウントで参加することもできます。",
+      "stop_ss_confirm": "画面共有が停止しました。 画面共有を再起動しますか？",
+      "max_char": "20文字を超える名前は入力できません。",
+      "delete_room_confirm": "このルームを削除してもよろしいですか?",
+      "delete_tenant_confirm": "このテナントを削除してもよろしいですか?",
+      "change_tenant_type_confirm": "リンケージ タイプを変更しますか?<br /> <b><i>リンク タイプを変更すると、すべてのテナント データがリセットされます</i></b> ",
+      "logout_confirm": "本当にログアウトしますか?",
+      "room_not_exists": "部屋が存在しません",
+      "room_not_found": "ルームが見つからないか、削除されました",
+      "api_not_found": "API リクエストを利用できません",
+      "selected_data_not_found": "選択されたデータは存在しないか利用できません",
+      "disconect_websocket_title": "サーバーから切断されています。",
+      "disconect_websocket_subtitle": "サーバーに再接続するには、OKボタンをクリックしてください。",
+      "unauthorized": "ユーザーID / Eメールまたはパスワードが間違っています",
+      "unauthorized_oidc": "あなたのアカウントは登録されていません。管理者に連絡してください。",
+      "unauthorized_user_not_found": "許可されていないユーザーが見つからないか、削除されていません",
+      "roomname_used": "ルーム名はすでに使用されています",
+      "success_save": "データは正常に保存されました",
+      "success_edit": "データが正常に更新されました",
+      "success_delete": "データは正常に削除されました",
+      "confirm_delete": "このデータを削除してもよろしいですか?",
+      "room_is_full2": "満室",
+      "room_is_expired": "部屋の有効期限が切れています",
+      "expired_at": "{value}年に期限切れ",
+      "total_active_user": "合計アクティブ ユーザー",
+      "teacher_watching": "先生はあなたの画面を見ています。",
+      "invalid_blob_url": "BLOB URL と BLOB KEY が無効です"
+    },
+    "toast": {
+      "url_copied": "URLのコピーが成功しました。",
+      "file_downloaded": "ファイルがダウンロードされました",
+      "file_failed_downloading": "ファイルのダウンロードに失敗しました"
+    }
+  },
+  "deeplink": {
+    "desc_1": "このページの右上にあるアプリケーションリンクをクリックして、アプリケーションへの認証を行います。",
+    "desc_2": "アプリケーションリンクが発生しない場合は、最初にAppleStoreからアプリケーションをインストールしてください。下のリンク画像をクリックして、アプリケーションをインストールしてください。",
+    "desc_3": "アプリケーションのインストールが完了したら、このURLをもう一度開きます。"
+  },
+  "ss_overlay_message": "画面を送信しています。ブラウザとタブを閉じないでください。",
+  "admin": {
+    "label": {
+      "confirm_delete": "この管理者を削除してもよろしいですか?",
+      "add_admin": "管理者作成",
+      "edit_admin": "編集管理者",
+      "role": "管理者種別",
+      "tenant": "テナント",
+      "school": "学校",
+      "email": "Eメールアドレス",
+      "name": "管理者名",
+      "username": "ログインID",
+      "userid": "ユーザーID",
+      "password": "パスワード",
+      "password_confirm": "パスワードの確認",
+      "select_tenant": "テナントを選択してください",
+      "select_school": "学校を選択してください",
+      "select_role": "ロールを選択してください",
+      "select_role_placeholder": "テナント管理者／学校管理者から選択",
+      "created_date": "作成日",
+      "select_csv_file": "csvファイルを選択"
+    },
+    "validation": {
+      "tenant_required": "この項目は必須項目です",
+      "school_required": "この項目は必須項目です",
+      "email_required": "この項目は必須項目です",
+      "name_required": "この項目は必須項目です",
+      "username_required": "この項目は必須項目です",
+      "userid_required": "ユーザーIDは必須フィールドです",
+      "role_required": "この項目は必須項目です",
+      "password_required": "この項目は必須項目です",
+      "password_confirm_required": "この項目は必須項目です",
+      "invalid_email": "メールアドレスが無効です",
+      "min_lenght_8": "パスワードは 8 文字以上である必要があります",
+      "account_used": "メールアドレスまたはユーザー名は既に使用されています",
+      "password_match": "パスワードは一致する必要があります",
+      "file_required": "ファイルが必要です",
+      "csv_only": "選択したファイルは csv ファイルでなければなりません"
+    },
+    "view": {
+      "title": "管理者管理",
+      "add_button": "新規追加"
+    },
+    "roles": {
+      "admin": "管理テナント",
+      "school_admin": "学校管理者"
+    },
+    "login": {
+      "title": "管理者ログイン",
+      "label": {
+        "username": "ユーザー名",
+        "password": "パスワード",
+        "userid": "ユーザーID / Eメール"
+      },
+      "btn": {
+        "submit_login": "ログイン"
+      }
+    },
+    "syncronize": {
+      "title": "名簿から同期",
+      "btn": {
+        "sync": "同期する"
+      },
+      "label": {
+        "sync_process": "プロセスを同期..."
+      }
+    },
+    "tenants": {
+      "title": "テナント管理",
+      "label": {
+        "add_tenant": "テナント作成",
+        "edit_tenant": "テナントの編集",
+        "create_client_id": "クライアント ID の作成方法を見る",
+        "no": "番号",
+        "tenant_name": "テナント名",
+        "name": "テナント",
+        "created_date": "作成日",
+        "limit": "ライセンス数",
+        "enable_limit": "ライセンス数制限を有効にする",
+        "linkage_type": "連携方式",
+        "linkage_type_local": "連携なし",
+        "linkage_type_oidc": "OpenIDConnect",
+        "linkage_type_lti": "LTI1.3",
+        "blob_storage": "BLOB ストレージ",
+        "blob_url": "Blob URL",
+        "blob_key": "Blob Key",
+        "oidc": "OIDC",
+        "google_client_id": "Google クライアント ID",
+        "microsoft_client_id": "Microsoft クライアント ID",
+        "subdomain": "サブドメイン名",
+        "url": "URL",
+        "platform_name": "Platform Name",
+        "platform_url": "Platform URL",
+        "client_id": "Client ID",
+        "authentication_endpoint": "Authentication Endpoint",
+        "accesstoken_endpoint": "Access Token Endpoint",
+        "auth_method_type": "Auth Method Type",
+        "auth_key": "Auth Key",
+        "use_blob_sync": "BLOB 同期を使用する",
+        "use_blob_tenant_name": "テナント名を使用します",
+        "blob_tenant_name": "BLOB テナント名",
+        "last_sync": "最終同期",
+        "sync_status": "同期ステータス",
+        "sync_status_on_process": "同期が進行中です"
+      },
+      "placeholder": {
+        "platform_name": "Platform Name",
+        "platform_url": "Platform URL",
+        "client_id": "Client ID",
+        "authentication_endpoint": "Authentication Endpoint",
+        "accesstoken_endpoint": "Access Token Endpoint",
+        "auth_method_type": "Auth Method Type",
+        "auth_key": "Auth Key",
+        "blob_tenant_name": "BLOB テナント名"
+      },
+      "table": {
+        "name": "テナント名"
+      },
+      "validation": {
+        "subdomain_required": "この項目は必須項目です",
+        "name_required": "この項目は必須項目です",
+        "user_limit_required": "ユーザーの制限が必要",
+        "user_limit_min": "ユーザーを制限する min %MIN%",
+        "limit_required": "ライセンス数を入力するか、制限を解除してください",
+        "linkage_type_required": "リンケージが必要",
+        "blob_url_required": "Blob URL が必要です",
+        "blob_url_url": "Blob URL は URL にする必要があります",
+        "blob_key_required": "BLOB キーが必要です",
+        "google_client_id_required": "Google クライアント ID が必要です",
+        "microsoft_client_id_required": "Microsoft クライアント ID が必要です",
+        "subdomain_invalid": "半角英数字と右の記号\"-\", \"_\"に制限",
+        "platform_url_url": "Platform URL は URL にする必要があります",
+        "authentication_endpoint_url": "Authentication endpoint は URL にする必要があります",
+        "accesstoken_endpoint_url": "Access token は URL にする必要があります",
+        "subdomain_already_use": "サブドメインは既に使用されています",
+        "blob_tenant_name_required": "BLOB テナント名が必要です"
+      },
+      "btn": {
+        "add_new": "追加"
+      },
+      "modal": {
+        "title": "テナント作成"
+      },
+      "alert": {
+        "success_create_tenant": "成功 新しいテナントの作成",
+        "success_update_tenant": "成功更新テナント",
+        "success_delete_tenant": "テナントの削除成功",
+        "onprogress_create_tenant": "進行中の新しいテナントの作成...",
+        "onprogress_update_tenant": "進行中のテナントの更新...",
+        "failed_create_tenant": "新しいテナントの作成に失敗しました"
+      },
+      "sync": {
+        "title": "OneRoster の同期",
+        "btn": {
+          "close": "近い",
+          "add": "添加",
+          "stop": "ストップ",
+          "cancel": "キャンセル",
+          "retry": "リトライ",
+          "save": "保存"
+        },
+        "label": {
+          "schools": "学校",
+          "teachers": "教師",
+          "process": "BLOBからのデータ取得を実行しています。 お待ちください。",
+          "calculating": "データの計算",
+          "no_data": "BLOB からのデータがありません"
+        },
+        "alert": {
+          "confirm_resync": "アラート",
+          "are_you_sure": "この自治体のデータを再同期してもよろしいですか？",
+          "sync_completed": "BLOBのデータ取得が完了しました。",
+          "sync_completed_with_condition": "BLOBのデータ取得が完了しました。",
+          "sync_completed_no_zip": "新しい OneRoster ZIP ファイルを同期する必要はありません。",
+          "sync_error": "BLOBからのデータの取得に失敗しました。",
+          "sync_error_skiped_data_user": "ただし、一部のユーザーはデータが不完全なため、正常に同期できません。 以下は、正常に同期されなかったユーザーのリストです。"
+        }
+      }
+    },
+    "schools": {
+      "title": "学校管理",
+      "label": {
+        "confirm_delete": "本当にこの学校を削除しますか?",
+        "add_school": "学校作成",
+        "edit_school": "学校を編集",
+        "no": "番号",
+        "name": "学校名",
+        "created_date": "作成日",
+        "tenant": "テナント",
+        "code": "学校コード",
+        "select_tenant": "テナントを選択してください"
+      },
+      "validation": {
+        "tenant_required": "テナントが必要です",
+        "name_required": "この項目は必須項目です",
+        "code_required": "学校コードが必要です",
+        "school_code_fail": "学校コードは既に使用されています"
+      },
+      "modal": {
+        "add": "学校のフォーム"
+      }
+    },
+    "teachers": {
+      "title": "教師管理",
+      "change_password": "パスワードを変更する",
+      "label": {
+        "confirm_delete": "本当にこの先生を削除しますか?",
+        "add_teacher": "教師作成",
+        "edit_teacher": "先生を編集",
+        "no": "番号",
+        "name": "教師名",
+        "username": "ログインID",
+        "userid": "ユーザーID",
+        "email": "Eメールアドレス",
+        "phone": "電話番号",
+        "updated_date": "更新日",
+        "created_date": "作成日",
+        "tenant": "テナント",
+        "school": "学校",
+        "new_password": "新しいパスワード",
+        "confirm_password": "パスワードを認証する",
+        "password": "パスワード",
+        "password_confirm": "パスワードの確認",
+        "select_csv_file": "csvファイルを選択",
+        "action_type": "アクションタイプ"
+      },
+      "alert": {
+        "success_change_password": "パスワードの変更成功",
+        "import_success": "インポート教師の成功",
+        "csv_found_invalid": "無効なデータが見つかりました。もう一度確認してください。"
+      },
+      "validation": {
+        "id_required": "身分証明書が必要です",
+        "password_required": "この項目は必須項目です",
+        "confirm_password_required": "この項目は必須項目です",
+        "password_not_match": "パスワードが一致しないことを確認",
+        "invalid_username": " 文字種は半角英数字と右の記号 - _ . ! * ’ ( )に制限",
+        "password_alphanumeric": "パスワードは英数字のみです",
+        "password_minlength": "上記の4文字を入力してください",
+        "password_maxlength": "12文字以内で入力してください",
+        "tenant_id_unautorize": "不正テナントID/テナントID不一致",
+        "tenant_id_and_school_id_required": "テナントと学校を選択してください」",
+        "filter_tenant_id_required": "テナントを選択してください",
+        "filter_school_id_required": "学校を選択してください",
+        "school_id_unautorize": "スクールID無許可",
+        "school_id_required": "学生証必須",
+        "required": "このセクションは必須です",
+        "invalid_email": "無効なメールアドレス",
+        "name_maxlength": "128文字以内で入力してください",
+        "userid_maxlength": "128文字以内で入力してください",
+        "unique_identifyer": "メールアドレスまたはユーザー名は既に使用されています",
+        "email_maxlength": "319文字以内で入力してください",
+        "tenant_id_invalid": "無効なテナント ID",
+        "school_id_invalid": "無効な学校 ID",
+        "csv_format_invalid": "csv 形式が無効です"
+      },
+      "btn": {
+        "close_btn": "近い",
+        "submit_csv_data": "一括登録リストの確認",
+        "confim_submit_import_csv": "登録",
+        "close_import_btn": "取消"
+      }
+    },
+    "rooms": {
+      "title": "教室管理",
+      "label": {
+        "no": "番号",
+        "add_room": "教室作成",
+        "edit_room": "部屋を編集",
+        "いいえ": "いいえ",
+        "name": "教室名",
+        "createdAt": "作成日",
+        "updatedAt": "更新日時",
+        "expiredAt": "有効期限",
+        "is_disabled": "無期限",
+        "tenant_id": "テナント",
+        "school_id": "学校",
+        "teacher_id": "教師名",
+        "status_room": "状態",
+        "non_active": "無効",
+        "active": "有効",
+        "select_tenant": "テナント"
+      },
+      "validation": {
+        "tenant_id_required": "この項目は必須項目です",
+        "school_id_required": "この項目は必須項目です",
+        "teacher_id_required": "この項目は必須項目です",
+        "expiredAt_required": "有効期限が必要です",
+        "name_required": "この項目は必須項目です"
+      },
+      "modal": {
+        "title": "ルームフォーム"
+      },
+      "btn": {
+        "add_new": "追加"
+      },
+      "alert": {
+        "success_create_room": "成功 新しい部屋を作成",
+        "success_update_room": "サクセスアップデートルーム",
+        "success_delete_room": "部屋の削除成功"
+      }
+    },
+    "logs": {
+      "title": "ログ管理",
+      "label": {
+        "detail": "詳細",
+        "tenant": "テナント",
+        "school": "学校",
+        "date_start": "開始日",
+        "date_end": "日付終了",
+        "no": "番号",
+        "type": "タイプ",
+        "label": "ラベル",
+        "content_data": "コンテンツ データ",
+        "created_date": "作成日"
+      }
+    },
+    "sync_logs": {
+      "title": "ログ管理の同期",
+      "label": {
+        "detail": "詳細",
+        "tenant": "テナント",
+        "date_start": "開始日",
+        "date_end": "終了日",
+        "no": "#",
+        "type": "タイプ",
+        "status": "スターテス",
+        "message": "メッセージ",
+        "content_data": "コンテンツデータ",
+        "created_date": "作成日"
+      }
+    }
+  },
+
+  "sync": {
+    "title": "BLOB から同期する",
+    "validation": {
+      "ERR0001": "{csv} file doest'n exist",
+      "ERR0002": "{csv} header propertyName is unknown",
+      "ERR0003": "{csv} header value is unknown",
+      "ERR0004": "{csv} item row value {s}",
+      "ERR0005": "{csv} item oneroster.version is not valid",
+      "ERR0006": "{csv} oneroster.version column is unknown",
+      "ERR0007": "{csv} content is empty",
+      "ERR0008": "{csv} file is exist but manifest.csv value is absent",
+      "ERR0010": "{csv} item row number {s} {message}",
+      "ERR0012": "{csv} header is invalid, the header should be contain {s} and have valid order"
+    },
+    "joiValidation": {
+      "string.alphanum": "{{#label}} must only contain alpha-numeric characters",
+      "string.base": "{{#label}} must be a string",
+      "string.base64": "{{#label}} must be a valid base64 string",
+      "string.creditCard": "{{#label}} must be a credit card",
+      "string.dataUri": "{{#label}} must be a valid dataUri string",
+      "string.domain": "{{#label}} must contain a valid domain name",
+      "string.email": "{{#label}} must be a valid email",
+      "string.empty": "{{#label}} is not allowed to be empty",
+      "string.guid": "{{#label}} must be a valid GUID",
+      "string.hex": "{{#label}} must only contain hexadecimal characters",
+      "string.hexAlign": "{{#label}} hex decoded representation must be byte aligned",
+      "string.hostname": "{{#label}} must be a valid hostname",
+      "string.ip": "{{#label}} must be a valid ip address with a {{#cidr}} CIDR",
+      "string.ipVersion": "{{#label}} must be a valid ip address of one of the following versions {{#version}} with a {{#cidr}} CIDR",
+      "string.isoDate": "{{#label}} must be in iso format",
+      "string.isoDuration": "{{#label}} must be a valid ISO 8601 duration",
+      "string.length": "{{#label}} length must be {{#limit}} characters long",
+      "string.lowercase": "{{#label}} must only contain lowercase characters",
+      "string.max": "{{#label}} length must be less than or equal to {{#limit}} characters long",
+      "string.min": "{{#label}} length must be at least {{#limit}} characters long",
+      "string.normalize": "{{#label}} must be unicode normalized in the {{#form}} form",
+      "string.token": "{{#label}} must only contain alpha-numeric and underscore characters",
+      "string.pattern.base": "{{#label}} with value {:[.]} fails to match the required pattern: {{#regex}}",
+      "string.pattern.name": "{{#label}} with value {:[.]} fails to match the {{#name}} pattern",
+      "string.pattern.invert.base": "{{#label}} with value {:[.]} matches the inverted pattern: {{#regex}}",
+      "string.pattern.invert.name": "{{#label}} with value {:[.]} matches the inverted {{#name}} pattern",
+      "string.trim": "{{#label}} must not have leading or trailing whitespace",
+      "string.uri": "{{#label}} must be a valid uri",
+      "string.uriCustomScheme": "{{#label}} must be a valid uri with a scheme matching the {{#scheme}} pattern",
+      "string.uriRelativeOnly": "{{#label}} must be a valid relative uri",
+      "string.uppercase": "{{#label}} must only contain uppercase characters"
+    }
+  }
+}

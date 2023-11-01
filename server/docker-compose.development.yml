@@ -1,0 +1,56 @@
+version: '3'
+services:
+  realcast:
+    build:
+      context: .
+      args:
+        NODE_ENV: development
+    ports:
+      - 5000:5000
+    volumes:
+      - backend-app:/app
+      - node_modules:/app/node_modules
+    environment:
+      - NODE_ENV=development
+    env_file: 
+      - ./.env
+    depends_on:
+      - mongo
+      - redis
+      - mysql
+    command: npm run dev
+
+  mongo:
+    image: mongo
+    ports:
+      - 27017:27017
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=ar011011
+      - MONGO_INITDB_DATABASE=ltidb
+    volumes:
+      - mongo-db:/data/db
+  
+  redis:
+    image: redis:7.0
+    ports:
+      - 6379:6379
+    volumes:
+      - redis:/data
+  
+  mysql:
+    image: mysql:8.0
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=ar011011
+    volumes:
+      - mysql-db:/data/lib/mysql/data
+
+    
+volumes:
+  backend-app:
+  node_modules:
+  mongo-db:
+  mysql-db:
+  redis:

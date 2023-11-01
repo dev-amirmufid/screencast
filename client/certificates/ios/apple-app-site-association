@@ -1,0 +1,32 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appIDs": [
+                    "75S2GQBQK7.jp.co.uchida.realcast"
+                ],
+                "appID": "75S2GQBQK7.jp.co.uchida.realcast",
+                "components": [
+                    {
+                        "/": "/auth",
+                        "comment": "Auth"
+                    }
+                ],
+                "paths": [
+                    "/auth"
+                ]
+            }
+        ]
+    },
+    "activitycontinuation": {
+        "apps": [
+            "75S2GQBQK7.jp.co.uchida.realcast"
+        ]
+    },
+    "webcredentials": {
+        "apps": [
+            "75S2GQBQK7.jp.co.uchida.realcast"
+        ]
+    }
+}

@@ -1,0 +1,93 @@
+{
+  "name": "RealCast FE",
+  "version": "1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development vite",
+    "build": "NODE_ENV=production npm run watch:css && vite build",
+    "start": "NODE_ENV=production npm run watch:css && vite build && vite preview",
+    "startContainer": "NODE_ENV=production vite preview",
+    "watch:css": "postcss src/styles/tailwind.css -o src/styles/output.css"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-brands-svg-icons": "^6.2.1",
+    "@fortawesome/free-regular-svg-icons": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@headlessui/react": "^1.7.7",
+    "@loadable/component": "^5.15.2",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.8",
+    "@react-oauth/google": "^0.9.0",
+    "@reduxjs/toolkit": "^1.9.1",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.0.3",
+    "formik": "^2.2.9",
+    "html-react-parser": "^3.0.6",
+    "i18next": "^22.4.6",
+    "install": "^0.13.0",
+    "jwt-decode": "^3.1.2",
+    "moment": "^2.29.4",
+    "msal": "^1.4.17",
+    "npm": "^9.2.0",
+    "react": "^18.2.0",
+    "react-cookie": "^4.1.1",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-data-table-component": "^7.5.3",
+    "react-datepicker": "^4.10.0",
+    "react-device-detect": "^2.2.2",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^12.1.1",
+    "react-loader-spinner": "^5.3.4",
+    "react-microsoft-login": "^1.15.0",
+    "react-paginate": "^8.1.4",
+    "react-qr-code": "^2.0.11",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.6.1",
+    "react-timer-hook": "^3.0.5",
+    "react-toastify": "^9.1.1",
+    "redaxios": "^0.5.1",
+    "redux": "^4.2.0",
+    "sass": "^1.57.1",
+    "seedrandom": "^3.0.5",
+    "socket.io-client": "^4.5.4",
+    "tldts": "^5.7.109",
+    "uuid-by-string": "^4.0.0",
+    "ws": "^8.11.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "autoprefixer": "^10.3.4",
+    "eslint": "^8.30.0",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.15",
+    "vite": "^4.0.0"
+  }
+}

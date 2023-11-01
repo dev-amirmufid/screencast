@@ -1,0 +1,19 @@
+@media (min-width: 768px){
+  .admin-title {
+    max-width: 18rem;
+  }
+
+  .teacher-title {
+    max-width: 47rem;
+  }
+}
+
+@media (min-width: 1600px){
+  .admin-title {
+    max-width: 30rem;
+  }
+
+  .teacher-title {
+    max-width: 47rem;
+  }
+}

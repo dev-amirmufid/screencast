@@ -1,0 +1,13 @@
+server/node_modules
+server/logs
+server/temp/*
+server/csv/teacher
+
+client/node_modules
+client/src/styles/output.css
+client/src/i18n.js
+
+socket-ui
+
+scheduler/logs
+scheduler/node_modules

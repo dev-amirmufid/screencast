@@ -1,0 +1,28 @@
+.welcome {
+  min-height: 100vh;
+  display: flex !important;
+  justify-content: center;
+  flex-direction: column;
+
+  &__wrapper {
+    position: relative;
+    max-width: 42rem;
+    margin: 0 auto;
+  }
+
+  .paper {
+    &__bg {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #000;
+      transform: rotate(-6deg);
+      z-index: 0;
+    }
+
+    &__box{
+        position: relative;
+        z-index: 1;
+    }
+  }
+}

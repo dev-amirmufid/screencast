@@ -1,0 +1,34 @@
+.paginate-container {
+  bottom: 0;
+  width: 100%;
+  height: 35px;
+ 
+  .pagination {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    ul {
+      display: inline-block;
+    }
+ 
+    li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+ 
+    .active {
+      background: #129d90;
+      border-radius: 50%;
+      width: 25px;
+      height: 25px;
+      text-align: center;
+      
+      a {
+        color: white;
+      }
+    }
+  }
+ }
+ 

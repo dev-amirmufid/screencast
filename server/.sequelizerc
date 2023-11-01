@@ -1,0 +1,17 @@
+const process = require('process')
+const path = require('path')
+
+const config_name = process.env.DB_GROUP == 'new_tenant_db' || process.env.DB_GROUP == 'tenant_db' ? 'tenant_db' : 'master_db'
+
+const migration_path = `migrations/${config_name}`
+const seeder_path = `seeders/${config_name}`
+
+const sequelize_conf = 
+{
+  'config': path.resolve('config', 'migration.config.cjs'),
+  'models-path': path.resolve('./', 'models'),
+  'seeders-path': path.resolve('./', seeder_path),
+  'migrations-path': path.resolve('./', migration_path)
+};
+ 
+module.exports = sequelize_conf

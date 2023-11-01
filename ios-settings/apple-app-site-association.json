@@ -1,0 +1,38 @@
+{
+  "applinks": {
+    "apps": [
+      
+    ],
+    "details": [
+      {
+        "appIDs": [
+          "75S2GQBQK7.jp.co.uchida.realcast",
+          "2JW3RQ5A46.jp.co.uchida.realcast.dev"
+        ],
+        "appID": "5S2GQBQK7.jp.co.uchida.realcast",
+        "paths": [
+          "*"
+        ]
+      },
+      {
+        "appID": "2JW3RQ5A46.jp.co.uchida.realcast.dev",
+        "paths": [
+          "*"
+        ]
+      }
+    ]
+  },
+  "activitycontinuation": {
+    "apps": [
+      "75S2GQBQK7.jp.co.uchida.realcast",
+      "2JW3RQ5A46.jp.co.uchida.realcast.dev"
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "75S2GQBQK7.jp.co.uchida.realcast",
+      "2JW3RQ5A46.jp.co.uchida.realcast.dev"
+    ]
+  }
+}
+

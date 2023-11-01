@@ -1,0 +1,29 @@
+{
+  "name": "RealCast Classroom",
+  "description": "",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjiT31txBhOGGjoXCLWR3byLCwcQ6+u2LC7W7ZcOFWLSH0nwCjuk3WWiCWn0u4epQMcPgQzIVhxwnhdHe16ytiys0ShPy9SwGj60ELw8hb5nAqY3HkuN7yFe0pTJiUAs7v3IddaifO+M2hyq3YX6uHmt0upXP29iUNW687j8lNHmCZtFF2LzQaIC9mNsI9M3TnzsXBxRPv4g8o39xd21c3BhsQOw9QoqVbM8TxXUyZ2XY+vi8+QNGtd+4Krxjm1xY49BRM0UvHwwnmb66D+kt/pUA0eBbGicviARxSBO5lg9bgK6m8oF8rWRuMHlFFXz3tDWwj9a4it+rToEdWhN5cQIDAQAB",
+  "oauth2": {
+    "client_id": "568905740276-81topnu0vur34u16ukbnabhkld1mrf7e.apps.googleusercontent.com",
+    "scopes": [
+      "profile email",
+      "https://www.googleapis.com/auth/classroom.courses.readonly",
+      "https://www.googleapis.com/auth/classroom.rosters"
+    ]
+  },
+  "icons": {
+    "16": "./icons/logo-16x16.png",
+    "32": "./icons/logo-32x32.png",
+    "48": "./icons/logo-48x48.png",
+    "128": "./icons/logo-128x128.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "options_page": "./options.html",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["identity", "identity.email"]
+}

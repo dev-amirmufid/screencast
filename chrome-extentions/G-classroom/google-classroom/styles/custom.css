@@ -1,0 +1,18 @@
+.popup {
+  width: 400px;
+  height: auto;
+}
+.course-card {
+  cursor: pointer;
+}
+.course-card:hover {
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 8%);
+}
+
+.overlay {
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #696c6f91;
+}

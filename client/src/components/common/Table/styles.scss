@@ -1,0 +1,44 @@
+.rdt_Table {
+  width: 100%;
+  // background: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.rdt_TableHeadRow {
+    font-family: inherit;
+    color: #fff;
+    line-height: 1.4;
+    background-image: linear-gradient(to right, var(--tw-gradient-stops)) !important;
+    --tw-gradient-to: #0d9488 !important;
+    --tw-gradient-from: #25b09d !important;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(45, 212, 191, 0)) !important;
+}
+.rdt_TableCell{
+  font-size: 15px !important;
+}
+.rdt_TableCol_Sortable,.rdt_TableCol{
+  font-size: 16px !important;
+}
+.rdt_Pagination{
+  font-size: 15px !important;
+  color:#000000DE !important;
+}
+.rdt_TableBody{
+  border-left: 1px solid #dee2e6;
+}
+
+.rdt_TableRow:nth-child(even) {
+  background-color: #f8f6ff;
+}
+
+.rdt_TableCell {
+  border-right: 1px solid #dee2e6;
+}
+
+.rdt_Table .rdt_TableBody .rdt_TableCell > div {
+  white-space: unset;
+  overflow: unset;
+  text-overflow: unset;
+}

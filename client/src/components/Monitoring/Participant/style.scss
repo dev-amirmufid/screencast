@@ -1,0 +1,37 @@
+.paginate-participant {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  height: 35px;
+
+  .pagination {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ul {
+      display: inline-block;
+    }
+
+    li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    .active {
+      background: #129d90;
+      border-radius: 50%;
+      width: 25px;
+      height: 25px;
+      text-align: center;
+      
+      a {
+        color: white;
+      }
+    }
+  }
+}

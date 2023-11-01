@@ -1,0 +1,12 @@
+{
+  "api_url": "https://ms-api.realcast-online.net/api",
+  "lang_url": "https://admin.realcast-online.net/lang",
+  "websocket_url": "wss://ms-api.realcast-online.net",
+  "ice_server": [
+    {
+      "urls": ["turn:s-turn.uird.jp:443?transport=udp","turn:s-turn.uird.jp:443?transport=tcp"],
+      "username": "realcast",
+      "credential": "rS2N9Hz"
+    }
+  ]
+}

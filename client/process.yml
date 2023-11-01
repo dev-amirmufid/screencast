@@ -1,0 +1,5 @@
+apps:
+  - name     : 'react-app'
+    script   : 'npx'
+    cwd      : '/usr/src/app'
+    args     : "serve -s build -p 80"

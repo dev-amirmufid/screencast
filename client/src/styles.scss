@@ -1,0 +1,30 @@
+select:disabled {
+  background: #f4f4f4;
+  border-color: #d2d2d2;
+  color: #000 !important;
+}
+
+.MuiAutocomplete-listbox li {
+  word-break: break-all;
+}
+
+.width-rtitle-teacher {
+  max-width: calc(100% - 940px);
+}
+
+.width-topbarbtn-teacher {
+  min-width: 920px;
+  text-align: end;
+}
+
+.text-ellipsis {
+  text-overflow: ellipsis;
+}
+
+.rdt_TableBody{
+  justify-content: flex-end;
+}
+
+.rdt_Table{
+  flex-wrap : nowrap !important;
+}

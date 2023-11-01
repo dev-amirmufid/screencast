@@ -1,0 +1,654 @@
+{
+  "navigation": {
+    "room_management": "Classroom Management",
+    "logout": "Logout",
+    "assistant_monitoring": "Assistant Monitoring",
+    "syncronize": "Syncronize",
+    "tenants": "Tenants",
+    "admin": "Admins",
+    "schools": "Schools",
+    "teachers": "Teachers",
+    "rooms": "Classrooms",
+    "logs": "Logs",
+    "sync_logs": "Synchronize Logs"
+  },
+  "table": {
+    "no_data": "No matching data found",
+    "paging": "Rows per Page:",
+    "paging_sparator": "of",
+    "action_label": "Actions"
+  },
+  "teacher": {
+    "login": {
+      "title": "TEACHER LOGIN",
+      "username": "Username",
+      "userid": "User ID / Email",
+      "password": "Password",
+      "btn_sign_in": "LOGIN",
+      "label_login_with": "You can also Sign In with"
+    },
+    "room": {
+      "room_name": "Classroom Name",
+      "room_name_placeholder": "Please enter the classroom name",
+      "expired_at": "Expired Date",
+      "room_management": "Classroom Management",
+      "room_list": "Classroom List",
+      "delete": "Delete",
+      "edit": "Edit",
+      "share_link": "Share Link",
+      "join_room": "Join Classroom",
+      "add_new": "Add",
+      "add_new_room": "Create Classroom",
+      "edit_room": "Edit Classroom",
+      "success_update_room": "Success Update Classroom",
+      "success_delete_room": "Success Delete Classroom",
+      "success_add_room": "Success Add Classroom",
+      "force_kick": "Force Kick",
+      "create_temp_room": "Temporary Room"
+    },
+    "monitoring": {
+      "title": "Monitoring",
+      "room_unavailable": "The classroom has been deleted due to a system failure. Please create a classroom again to resume the lecture.",
+      "number_of_participant": "Participants",
+      "student_disconnect": "Your screen is seen by the teacher",
+      "wait_text": "Please Wait",
+      "ss_stopped": "Screen Sharing Stopped",
+      "user_disconnected": "User has left the room."
+    },
+    "student_url": {
+      "title": "URL for Student",
+      "close": "Close",
+      "notice": "Copy the URL above or download the QR code and share it with the participants.",
+      "qr_download": "Download QR code",
+      "qr_refresh": "QR REFRESH"
+    },
+    "assistant_url": {
+      "title": "URL for Assistant",
+      "close": "Close",
+      "notice": "Copy the URL above or download the QR code and share it with other teachers.",
+      "qr_download": "Download QR code"
+    },
+    "modal": {
+      "share_title": "Share URL",
+      "button_save": "Save",
+      "button_close": "Cancel",
+      "csv": "List of Participants",
+      "select_last_connection_date": "Select Last Connection Date",
+      "download_csv": "Download Csv"
+    },
+    "validation": {
+      "room_name_required": "This field is required",
+      "expiredAt_required": "Expired date is required"
+    }
+  },
+  "form": {
+    "field": {
+      "room_name": "Classroom Name",
+      "student_name": "Your Name"
+    },
+    "btn": {
+      "btn_create": "Classroom Creation",
+      "btn_join": "Join",
+      "btn_back": "Back to Home"
+    },
+    "label": {
+      "mandatory": "※"
+    },
+    "placeholder": {
+      "search": "Free word"
+    }
+  },
+  "btn": {
+    "btn_yes": "Yes",
+    "btn_no": "No",
+    "btn_cancel": "Cancel",
+    "btn_teacher": "Create a Classroom",
+    "btn_student": "I am a Student.",
+    "btn_create": "Create Classroom",
+    "btn_join": "JOIN CLASSROOM",
+    "btn_back": "Back to Home",
+    "btn_leave": "Leave the Classroom",
+    "btn_stop_watching": "Stop Screen Sharing",
+    "btn_stop_compare": "Screen Comparison Complete",
+    "btn_url_student": "Join URL",
+    "btn_url_assistant": "Add Teacher",
+    "btn_compare": "Compare/Split",
+    "btn_compare_start": "Determine",
+    "btn_share_screen": "Start Screen Sharing",
+    "btn_google": "Sign In with Google",
+    "btn_microsoft": "Sign In with Microsoft",
+    "btn_alert_leave_room": "No, Leave the Classroom",
+    "btn_download_csv": "List of Participant",
+    "btn_delete": "Delete",
+    "btn_logout": "Logout",
+    "btn_search": "Search",
+    "btn_reset": "Reset",
+    "btn_export_csv": "CSV",
+    "btn_import_csv": "CSV"
+  },
+  "placeholder": {
+    "select_tenant": "Please select a tenant",
+    "select_school": "Please select a school",
+    "select_teacher": "Please select a teacher",
+    "select_role": "Select an admin type",
+    "select_start_date": "Start Date",
+    "select_end_date": "End Date",
+    "admin_name": "Please enter admin name",
+    "tenant_name": "Please enter tenant name",
+    "teacher_name": "Please enter teacher name",
+    "room_name": "Please enter the classroom name",
+    "expired_room": "Please enter an expired classroom",
+    "email": "Please enter your email address",
+    "username": "Please enter your login ID",
+    "password": "Please enter your password",
+    "password_confirm": "Please enter password confirmation",
+    "user_limit": "Enter user limit",
+    "google_client": "Enter your Google Client ID",
+    "microsoft_client": "Enter your Microsoft Client ID",
+    "code": "Please enter your school code",
+    "school_name": "Please enter your school name",
+    "search": "",
+    "tenant_subdomain": "Enter subdomain",
+    "data_not_found": "Data not found",
+    "no_matching": "No matching data found",
+    "exipred_room": "Click to View calendar.",
+    "click_to_show_calendar": "Click to show calendar"
+  },
+  "validation": {
+    "username_required": "Username is a required fields",
+    "userid_required": "User ID / Email is a required fields",
+    "password_required": "Password is a required fields",
+    "minlength": "Please enter {value} characters above",
+    "maxlength": "Please enter within {value} characters.",
+    "max": "This field must be less than or equal to {value}",
+    "alphabet": "This field can only be filled with alphabet",
+    "alphanumeric": "This field can only be filled with alphanumeric",
+    "email_japan": "Email cannot contain Japanese characters",
+    "alphanumeric_without_space": "This field can only be filled with alphanumeric without space",
+    "filled": "Field is blank. Please enter a value.",
+    "alphanumeric_char": "Field can only be alphanumeric.",
+    "emoji_disallowed": "Emoji is not allowed"
+  },
+  "alert": {
+    "name": "Alert",
+    "ok": "OK",
+    "text": {
+      "alert_limit_user": "Logged in user limit exceeded",
+      "on_deleted_admin_user": "Admin already deleted.",
+      "on_deleted_teacher_user": "Teacher already deleted.",
+      "on_kick_teacher_user": "Teacher already kicked out.",
+      "username_already_use": "Username is already in use",
+      "email_already_use": "Email already received",
+      "expired_token_title": "End session",
+      "expired_token_text": "Your session has expired. Please login again.",
+      "page_not_found": "This page was not found.",
+      "subdomain_already_use": "Subdomain already in use",
+      "room_exist": "This Classroom already exists. Please use another Classroom name.",
+      "room_notuse": "Classroom already exists but is not used. Would you like to use this Classroom?",
+      "room_must_filled": "Classroom name is blank. Please enter a value.",
+
+      "student_must_filled": "Student name is blank. Please enter a value.",
+      "filed_must_alfanum": "Please enter a classroom name to create. Classroom names can only be alphanumeric",
+
+      "session_expiry": "The session has already expired. This Classroom was in use by another teacher. Please create another room.",
+      "user_disconnect": "The selected student has left the Classroom or has stopped sharing, so the screen cannot be expanded.",
+      "user_notready": "Unable to complete screen sharing settings for the selected student, so the screen cannot be enlarged.",
+      "disconnect": "You have been disconnected from the server. Click the OK button to reconnect to the server.",
+
+      "room_not_exist": "This Classroom does not exist. Please enter a valid Classroom name.",
+      "room_not_available": "Classroom does not exist. Ask your teacher for a new URL or QRCODE.",
+      "room_is_full": "This Classroom is already full, ask your teacher.",
+      "room_expiry": "This Classroom has been deleted or is in use by another teacher. Please create another room.",
+      "share_sreen_text": "Click the button above to start screen sharing.",
+      "comparation": "Select two student screens to start student screen comparison.",
+      "comparation_limit": "A maximum of 9 students can be targeted for the specified split display.",
+      "url_invalid": "This URL is invalid. Please check the URL again with your teacher.",
+      "leave_room_confirm": "You have left the classroom and finished sharing your screen.",
+      "leave_room_student": "You left the Classroom and ended screen sharing. If you want to rejoin the room you left, please join using the URL and QR code you used when you joined.",
+      "leave_room_student_force": "Force left the Classroom already or the Classroom no longer exists",
+      "join_room_confirm": "Are you sure you want to use the name above?",
+      "join_room_confirm_2": "*You can also modify the name.",
+      "join_with_other_account": "You can also join with the account below instead of 'your name'. ",
+      "stop_ss_confirm": "Screen sharing stopped. Do you want to restart screen sharing?",
+      "max_char": "Name cannot exceed 20 characters.",
+      "delete_room_confirm": "Are you sure you want to delete this Classroom?",
+      "delete_tenant_confirm": "Are you sure you want to delete this tenant?",
+      "change_tenant_type_confirm": "Do you want to change the linkage type?<br /> <b><i>Changing the link type will reset all tenant data</i></b> ",
+      "logout_confirm": "Are you sure you want to logout?",
+      "room_not_exists": "Classroom does not exist",
+      "room_not_found": "Classroom not found or deleted",
+      "api_not_found": "API request not found",
+      "selected_data_not_found": "Selected data does not exist or is not available",
+      "disconect_websocket_title": "Disconnected from server.",
+      "disconect_websocket_subtitle": "Click the OK button to reconnect to the server.",
+      "unauthorized": "Wrong User ID/Email or Password",
+      "unauthorized_oidc": "Your account is not registered, please contact administrator.",
+      "unauthorized_user_not_found": "Unauthorized user not found or deleted",
+      "roomname_used": "Classroom name already used",
+      "success_save": "Data saved successfully",
+      "success_edit": "Data updated successfully",
+      "success_delete": "Data deleted successfully",
+      "confirm_delete": "Are you sure you want to delete this data?",
+      "room_is_full2": "Full",
+      "room_is_expired": "Classroom is expired",
+      "expired_at": "Expired in {value} years",
+      "total_active_user": "Total active users",
+      "teacher_watching": "The teacher is looking at your screen.",
+      "invalid_blob_url": "BLOB URL and BLOB KEY is not valid"
+    },
+    "toast": {
+      "url_copied": "URL Copy Successful.",
+      "file_downloaded": "File Downloaded"
+    }
+  },
+  "deeplink": {
+    "desc_1": "Click the application link at the top right of this page to authenticate to the application.",
+    "desc_2": "If the application link does not occur, please install the application from the AppleStore first. Click the link image below to install the application.",
+    "desc_3": "Reopen this URL after the application has finished installing."
+  },
+  "ss_overlay_message": "This is a screen sharing video, Please leave it as is.",
+  "admin": {
+    "label": {
+      "confirm_delete": "Are you sure you want to delete this admin?",
+      "add_admin": "Create Admin",
+      "edit_admin": "Edit Admin",
+      "role": "Admin Type",
+      "tenant": "Tenant",
+      "school": "School",
+      "email": "Email Address",
+      "name": "Admin Name",
+      "username": "Login ID",
+      "userid": "User ID",
+      "password": "Password",
+      "password_confirm": "Confirm Password",
+      "select_tenant": "Please select a tenant",
+      "select_school": "Please select a school",
+      "select_role": "Please select a role",
+      "select_role_placeholder": "Select from tenant admin/school admin",
+      "created_date": "Created Date",
+      "select_csv_file": "Select CSV File",
+      "file_required": "File is required",
+      "csv_only": "The selected file must be a csv file"
+    },
+    "validation": {
+      "tenant_required": "This field is required",
+      "school_required": "This field is required",
+      "email_required": "This field is required",
+      "name_required": "This field is required",
+      "username_required": "This field is required",
+      "userid_required": "This field is required",
+      "role_required": "This field is required",
+      "password_required": "This field is required",
+      "password_confirm_required": "This field is required",
+      "invalid_email": "Invalid email address",
+      "min_lenght_8": "Password must be at least 8 characters",
+      "account_used": "Email or username already in use",
+      "password_match": "Passwords must match",
+      "file_required": "File is required",
+      "csv_only": "The selected file must be a csv file"
+    },
+    "view": {
+      "title": "Admin Management",
+      "add_button": "Add New"
+    },
+    "roles": {
+      "admin": "Admin Tenant",
+      "school_admin": "School Admin"
+    },
+    "login": {
+      "title": "ADMIN LOGIN",
+      "label": {
+        "username": "Username",
+        "password": "Password",
+        "userid": "User ID / Email"
+      },
+      "btn": {
+        "submit_login": "LOGIN"
+      }
+    },
+    "syncronize": {
+      "title": "Syncronize From Roster",
+      "btn": {
+        "sync": "Syncronize"
+      },
+      "label": {
+        "sync_process": "Syncronize Process..."
+      }
+    },
+    "tenants": {
+      "title": "Tenant Management",
+      "label": {
+        "add_tenant": "Create Tenant",
+        "edit_tenant": "Edit Tenant",
+        "create_client_id": "See how to create a Client ID",
+        "no": "#",
+        "tenant_name": "Tenant Name",
+        "name": "Tenant",
+        "created_date": "Created Date",
+        "limit": "Number of Licenses",
+        "enable_limit": "Enable License Limit",
+        "linkage_type": "Linkage Method",
+        "linkage_type_local": "No Linkage",
+        "linkage_type_oidc": "OpenIDConnect",
+        "linkage_type_lti": "LTI1.3",
+        "blob_storage": "Blob Storage",
+        "blob_url": "Blob URL",
+        "blob_key": "Blob Key",
+        "oidc": "OIDC",
+        "google_client_id": "Google Client ID",
+        "microsoft_client_id": "Microsoft Client ID",
+        "subdomain": "Subdomain Name",
+        "url": "URL",
+        "platform_name": "Platform Name",
+        "platform_url": "Platform URL",
+        "client_id": "Client ID",
+        "authentication_endpoint": "Authentication Endpoint",
+        "accesstoken_endpoint": "Access Token Endpoint",
+        "auth_method_type": "Authentication Method Type",
+        "auth_key": "Authentication Key",
+        "use_blob_sync": "Use Blob Synchronize",
+        "use_blob_tenant_name": "Use Tenant Name",
+        "blob_tenant_name": "Blob Tenant Name",
+        "last_sync": "Last Synchronize",
+        "sync_status": "Sync Status",
+        "sync_status_on_process": "Synchronize is on process"
+      },
+      "placeholder": {
+        "platform_name": "Platform Name",
+        "platform_url": "Platform URL",
+        "client_id": "Client ID",
+        "authentication_endpoint": "Authentication Endpoint",
+        "accesstoken_endpoint": "Access Token Endpoint",
+        "auth_method_type": "Authentication Method Type",
+        "auth_key": "Authentication Key",
+        "blob_tenant_name": "Blob Tenant Name"
+      },
+      "table": {
+        "name": "Tenant Name"
+      },
+      "validation": {
+        "subdomain_required": "This field is required",
+        "name_required": "This field is required",
+        "user_limit_required": "User limit required",
+        "user_limit_min": "Limit users min %MIN%",
+        "limit_required": "Enter license count or remove limit",
+        "linkage_type_required": "Linkage required",
+        "blob_url_required": "Blob URL required",
+        "blob_url_url": "Blob URL must be a URL",
+        "blob_key_required": "Blob key required",
+        "google_client_id_required": "Google Client ID required",
+        "microsoft_client_id_required": "Microsoft Client ID required",
+        "subdomain_invalid": "Limited to single-byte alphanumeric characters and symbols on the right \"-\", \"_\"",
+        "platform_url_url": "Platform URL must be a URL",
+        "authentication_endpoint_url": "Authentication endpoint must be a URL",
+        "accesstoken_endpoint_url": "Access token must be a URL",
+        "subdomain_already_use": "Subdomain already in use",
+        "blob_tenant_name_required": "Blob Tenant Name Required"
+      },
+      "btn": {
+        "add_new": "Add"
+      },
+      "modal": {
+        "title": "Create Tenant"
+      },
+      "alert": {
+        "success_create_tenant": "Success Create New Tenant",
+        "success_update_tenant": "success Update Tenant",
+        "success_delete_tenant": "Successfully Deleted Tenant",
+        "onprogress_create_tenant": "Creating a New Tenant in Progress...",
+        "onprogress_update_tenant": "Tenant Update in Progress...",
+        "failed_create_tenant": "Failed to Create New Tenant"
+      },
+      "sync": {
+        "title": "OneRoster Synchronize",
+        "btn": {
+          "close": "close",
+          "add": "addition",
+          "stop": "Stop",
+          "cancel": "cancel",
+          "retry": "Retry",
+          "save": "Save"
+        },
+        "label": {
+          "schools": "Schools",
+          "teachers": "Teachers",
+          "process": "Running data acquisition from BLOB. Please wait.",
+          "calculating": "Data calculation",
+          "no_data": "No data from BLOB"
+        },
+        "alert": {
+          "confirm_resync": "Alert",
+          "are_you_sure": "この自治体のデータを再同期してもよろしいですか？",
+          "sync_completed": "BLOB data acquisition completed.",
+          "sync_completed_with_condition": "BLOB data acquisition completed.",
+          "sync_completed_no_zip": "No need to sync new OneRoster ZIP files.",
+          "sync_error": "Failed to get data from BLOB ",
+          "sync_error_skiped_data_user": "However, some users do not sync successfully due to incomplete data. Below is a list of users that did not sync successfully"
+        }
+      }
+    },
+    "schools": {
+      "title": "School Management",
+      "label": {
+        "confirm_delete": "Are you sure you want to delete this school?",
+        "add_school": "Create School",
+        "edit_school": "Edit School",
+        "no": "#",
+        "name": "School Name",
+        "created_date": "Created Date",
+        "code": "School Code",
+        "select_tenant": "Please select a tenant",
+        "tenant": "Tenant"
+      },
+      "validation": {
+        "tenant_required": "This field is required",
+        "name_required": "This field is required",
+        "code_required": "This field is required",
+        "school_code_fail": "School Code already used"
+      },
+      "modal": {
+        "add": "School Form"
+      }
+    },
+    "teachers": {
+      "title": "Teacher Management",
+      "change_password": "Change Password",
+      "label": {
+        "confirm_delete": "Are you sure you want to delete this teacher?",
+        "add_teacher": "Create Teacher",
+        "edit_teacher": "Edit Teacher",
+        "no": "#",
+        "name": "Teacher Name",
+        "username": "Login ID",
+        "userid": "User ID",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "updated_date": "Updated Date",
+        "created_date": "Created Date",
+        "tenant": "Tenant",
+        "school": "School",
+        "new_password": "New Password",
+        "confirm_password": "Confirm Password",
+        "password": "Password",
+        "password_confirm": "Confirm Password",
+        "select_csv_file": "Select CSV File",
+        "action_type": "Action type"
+      },
+      "alert": {
+        "success_change_password": "Successful password change",
+        "import_success": "Import teacher success",
+        "add_teacher": "Create Teacher",
+        "edit_teacher": "Edit Teacher",
+        "no": "#",
+        "name": "Teacher Name",
+        "username": "Login ID",
+        "userid": "User ID",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "updated_date": "Updated Date",
+        "created_date": "Created Date",
+        "tenant": "Tenant",
+        "school": "School",
+        "new_password": "New Password",
+        "confirm_password": "Confirm Password",
+        "password": "Password",
+        "password_confirm": "Confirm Password",
+        "csv_found_invalid": "Invalid data found, please check again."
+      },
+      "alert": {
+        "success_change_password": "Successful Password Change",
+        "csv_found_invalid": "Invalid data found, please check again.",
+        "import_success": "Import teacher success"
+      },
+      "validation": {
+        "id_required": "ID required",
+        "password_required": "This field is required",
+        "confirm_password_required": "This field is required",
+        "password_alphanumeric": "Password must be alphanumeric only",
+        "password_minlength": "Please enter the above 4 characters",
+        "password_maxlength": "Please enter within 12 characters",
+        "tenant_id_unautorize": "Unauthorized tenant ID/tenant ID mismatch",
+        "password_not_match": "Please make sure your passwords match",
+        "invalid_username": "Character types are limited to single-byte alphanumeric characters and symbols on the right - _ . ! * ' ( )",
+        "tenant_id_and_school_id_required": "Please select a tenant and school",
+        "filter_tenant_id_required": "Please select a tenant",
+        "filter_school_id_required": "Please select a school",
+        "school_id_unautorize": "School-ID Unautorize",
+        "school_id_required": "School-ID required",
+        "required": "This section is required",
+        "invalid_email": "Invalid email address",
+        "name_maxlength": "Please enter within 128 characters",
+        "userid_maxlength": "Please enter within 128 characters",
+        "unique_identifyer": "Email address or username already taken",
+        "email_maxlength": "Please enter within 319 characters",
+        "tenant_id_invalid": "Invalid Tenant ID",
+        "school_id_invalid": "Invalid school ID",
+        "csv_format_invalid": "Invalid csv format"
+      },
+      "btn": {
+        "close_btn": "Close",
+        "submit_csv_data": "Confirmation of bulk registration list",
+        "confim_submit_import_csv": "Register",
+        "close_import_btn": "Close"
+      }
+    },
+    "rooms": {
+      "title": "Classroom Management",
+      "label": {
+        "no": "#",
+        "add_room": "Create Classroom",
+        "edit_room": "Edit Clasroom",
+        "No": "No",
+        "name": "Classroom Name",
+        "createdAt": "Created Date",
+        "updatedAt": "Updated Date",
+        "expiredAt": "Expired Date",
+        "is_disabled": "Indefinitely",
+        "tenant_id": "Tenant",
+        "school_id": "School",
+        "teacher_id": "Teacher Name",
+        "status_room": "Status",
+        "non_active": "Inactive",
+        "active": "Active",
+        "select_tenant": "Tenant"
+      },
+      "validation": {
+        "tenant_id_required": "This field is required",
+        "school_id_required": "This field is required",
+        "teacher_id_required": "This field is required",
+        "expiredAt_required": "Expired date required",
+        "name_required": "This field is required"
+      },
+      "modal": {
+        "title": "Room Form"
+      },
+      "btn": {
+        "add_new": "Add"
+      },
+      "alert": {
+        "success_create_room": "Success Create New Room",
+        "success_update_room": "Success Update Room",
+        "success_delete_room": "Successfully Deleted Room"
+      }
+    },
+    "logs": {
+      "title": "Log Management",
+      "label": {
+        "detail": "Detail",
+        "tenant": "Tenant",
+        "school": "School",
+        "date_start": "Start Date",
+        "date_end": "End Date",
+        "no": "#",
+        "type": "Type",
+        "label": "Label",
+        "content_data": "Content Data",
+        "created_date": "Created Date"
+      }
+    },
+    "sync_logs": {
+      "title": "Synchronize Logs Management",
+      "label": {
+        "detail": "Detail",
+        "tenant": "Tenant",
+        "date_start": "Start Date",
+        "date_end": "End Date",
+        "no": "#",
+        "type": "Type",
+        "status": "Status",
+        "message": "Message",
+        "content_data": "Content Data",
+        "created_date": "Created Date"
+      }
+    }
+  },
+
+  "sync": {
+    "title": "Syncronize From BLOB ",
+    "validation": {
+      "ERR0001": "{csv} file doest'n exist",
+      "ERR0002": "{csv} header propertyName is unknown",
+      "ERR0003": "{csv} header value is unknown",
+      "ERR0004": "{csv} item row value {s}",
+      "ERR0005": "{csv} item oneroster.version is not valid",
+      "ERR0006": "{csv} oneroster.version column is unknown",
+      "ERR0007": "{csv} content is empty",
+      "ERR0008": "{csv} file is exist but manifest.csv value is absent",
+      "ERR0010": "{csv} item row number {s} {message}",
+      "ERR0012": "{csv} header is invalid, the header should be contain {s} and have valid order"
+    },
+    "joiValidation": {
+      "string.alphanum": "{{#label}} must only contain alpha-numeric characters",
+      "string.base": "{{#label}} must be a string",
+      "string.base64": "{{#label}} must be a valid base64 string",
+      "string.creditCard": "{{#label}} must be a credit card",
+      "string.dataUri": "{{#label}} must be a valid dataUri string",
+      "string.domain": "{{#label}} must contain a valid domain name",
+      "string.email": "{{#label}} must be a valid email",
+      "string.empty": "{{#label}} is not allowed to be empty",
+      "string.guid": "{{#label}} must be a valid GUID",
+      "string.hex": "{{#label}} must only contain hexadecimal characters",
+      "string.hexAlign": "{{#label}} hex decoded representation must be byte aligned",
+      "string.hostname": "{{#label}} must be a valid hostname",
+      "string.ip": "{{#label}} must be a valid ip address with a {{#cidr}} CIDR",
+      "string.ipVersion": "{{#label}} must be a valid ip address of one of the following versions {{#version}} with a {{#cidr}} CIDR",
+      "string.isoDate": "{{#label}} must be in iso format",
+      "string.isoDuration": "{{#label}} must be a valid ISO 8601 duration",
+      "string.length": "{{#label}} length must be {{#limit}} characters long",
+      "string.lowercase": "{{#label}} must only contain lowercase characters",
+      "string.max": "{{#label}} length must be less than or equal to {{#limit}} characters long",
+      "string.min": "{{#label}} length must be at least {{#limit}} characters long",
+      "string.normalize": "{{#label}} must be unicode normalized in the {{#form}} form",
+      "string.token": "{{#label}} must only contain alpha-numeric and underscore characters",
+      "string.pattern.base": "{{#label}} with value {:[.]} fails to match the required pattern: {{#regex}}",
+      "string.pattern.name": "{{#label}} with value {:[.]} fails to match the {{#name}} pattern",
+      "string.pattern.invert.base": "{{#label}} with value {:[.]} matches the inverted pattern: {{#regex}}",
+      "string.pattern.invert.name": "{{#label}} with value {:[.]} matches the inverted {{#name}} pattern",
+      "string.trim": "{{#label}} must not have leading or trailing whitespace",
+      "string.uri": "{{#label}} must be a valid uri",
+      "string.uriCustomScheme": "{{#label}} must be a valid uri with a scheme matching the {{#scheme}} pattern",
+      "string.uriRelativeOnly": "{{#label}} must be a valid relative uri",
+      "string.uppercase": "{{#label}} must only contain uppercase characters"
+    }
+  }
+}
